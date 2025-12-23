@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTown Films | Photography, Videography & Music Shoots</title>
+    <meta name="description"
+        content="JTown Films - Professional photography, videography, and music video production. Capturing moments with a unique aesthetic.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">JTOWN FILMS</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact" class="cta-button">Book Now</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#services" class="mobile-link">Services</a>
+        <a href="#portfolio" class="mobile-link">Portfolio</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line slide-up">Your Moments</span>
+                <span class="line slide-up delay-1">Our Lens</span>
+                <span class="line slide-up delay-2 highlight">Perfectly Captured</span>
+            </h1>
+            <p class="hero-subtitle fade-in">Photography | Videography | Music Production</p>
+            <a href="#contact" class="primary-button scale-in">Start Your Project</a>
+        </div>
+        <div class="hero-overlay"></div>
+        <!-- Abstract Background Elements -->
+        <div class="shape circle-1"></div>
+        <div class="shape circle-2"></div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2 class="section-title">Our Craft</h2>
+            <div class="title-bar"></div>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up">
+                <div class="icon-box">h>Photography</h3>
+                    <p>High-end editorial, portrait, and event photography that tells a story.</p>
+                    <a href="#contact" class="text-link">View Gallery &rarr;</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-delay="100">
+                    <div class="icon-box">🎥</div>
+                    <h3>Videography</h3>
+                    <p>Cinematic storytelling for brands, weddings, and creative projects.</p>
+                    <a href="#contact" class="text-link">View Showreel &rarr;</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-delay="200">
+                    <div class="icon-box">🎵</div>
+                    <h3>Music Shoots</h3>
+                    <p>Dynamic music videos that match your sound with striking visuals.</p>
+                    <a href="https://www.youtube.com/watch?v=HbkF5Dv_AoQ&list=RDHbkF5Dv_AoQ&start_radio=1"
+                        class="text-link">Watch Videos &rarr;</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Cinematic Banner -->
+    <div class="cinematic-banner">
+        <div class="banner-content">
+            <h2>Ready to create something iconic?</h2>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Let's Collaborate</h2>
+                <p>Have a vision? Let's bring it to life. Reach out for bookings and inquiries.</p>
+
+                <div class="info-item">
+                    <span class="label">Email</span>
+                    <span class="value">jtownfilms12@gmail.com
+                    </span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Socials</span>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/jtown_films/">Instagram</a>
+                        <a href="https://www.tiktok.com/@jtown_fiilms">TikTok</a>
+                        <a href="https://www.facebook.com/jtownfilms">facebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="type">Project Type</label>
+                    <select id="type">
+                        <option value="photography">Photography</option>
+                        <option value="videography">Videography</option>
+                        <option value="music-video">Music Video</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Tell us about your project..."></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="snow-container"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 JTown Films. All rights reserved.</p>
+            <p class="tagline">Designed with <span style="color: var(--primary-color);">♥</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
